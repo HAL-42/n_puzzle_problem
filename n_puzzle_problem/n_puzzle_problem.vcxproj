@@ -115,6 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="aStar_everything.h" />
+    <ClInclude Include="NPuzzle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aStar_everything.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
